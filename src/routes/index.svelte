@@ -4,7 +4,7 @@
         {'url': 's_90_3', 'title': 'S 90 3'},
         {'url': 'haben', 'title': 'Haben sie bigbag (Ecstacy of Saint Sebastian)'},
         {'url': 'garnitures', 'title': 'Garnitures for temple or house'},
-        {'url': 'fuzzy', 'title': 'Fuzzy is the language '},
+        {'url': 'fuzzy', 'title': 'Fuzzy is the language of creation'},
         {'url': 'seven', 'title': 'Seven sages laid it\'s foundations'},
         {'url': 'contact', 'title': 'Contact'},
     ];
