@@ -7,6 +7,7 @@
         {'url': 'fuzzy', 'title': 'Fuzzy is the language of creation'},
         {'url': 'seven', 'title': 'Seven sages laid it\'s foundations'},
         {'url': '1UU', 'title': '1UU'},
+        {'url': 'other', 'title': 'other'},
         {'url': 'contact', 'title': 'Contact'},
     ];
 </script>
