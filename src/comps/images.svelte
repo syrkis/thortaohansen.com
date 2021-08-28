@@ -22,7 +22,10 @@
 
     {#each works as work, i}
         <img src='https://files.thortaohansen.com/{project}/{i}.jpg'>
-        {work.title}
+        {work.title}<br/>
+        {work.year}<br/>
+        {work.dimensions}<br/>
+        {work.materials}
     {:else}
         ...loading
     {/each}
