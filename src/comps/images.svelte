@@ -6,6 +6,7 @@
     export let project;
     let works = [];
 
+
     async function getWork() {
         const res = await axios.get(`https://files.thortaohansen.com/${project}/index.json`);
         return res.data

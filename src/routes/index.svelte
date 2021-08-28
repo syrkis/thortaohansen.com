@@ -5,6 +5,7 @@
         {'url': 'haben', 'title': 'Haben sie bigbag (Ecstacy of Saint Sebastian)'},
         {'url': 'garnitures', 'title': 'Garnitures for temple or house'},
         {'url': 'fuzzy', 'title': 'Fuzzy is the language of creation'},
+        {'url': 'sun', 'title': 'The sun hitches up her skirt for Utnapishtim'},
         {'url': 'seven', 'title': 'Seven sages laid it\'s foundations'},
         {'url': '1UU', 'title': '1UU'},
         {'url': 'other', 'title': 'other'},
