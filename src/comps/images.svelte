@@ -6,7 +6,6 @@
     export let project;
     let works = [];
 
-
     async function getWork() {
         const res = await axios.get(`https://files.thortaohansen.com/${project}/index.json`);
         return res.data
@@ -22,11 +21,16 @@
 <main>
 
     {#each works as work, i}
-        <img src='https://files.thortaohansen.com/{project}/{i}.jpg'>
-        {work.title}<br/>
-        {work.year}<br/>
-        {work.dimensions}<br/>
-        {work.materials}
+        <div class='wrapper'>
+            <img src='https://files.thortaohansen.com/{project}/{i}.jpg'>
+        </div>
+        <br/>
+        <div class='description'>
+            {work.title}<br/>
+            {work.year}<br/>
+            {work.dimensions}<br/>
+            {work.materials}<br/>
+        </div>
     {:else}
         ...loading
     {/each}
