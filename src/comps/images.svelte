@@ -1,4 +1,6 @@
 <script>
+    
+    import Image from './image.svelte'; 
 
     import axios from 'axios';
     import { onMount } from 'svelte';
@@ -19,10 +21,10 @@
 
 </script>
 
-<main>
+<div>
 
     {#each works as work, i}
-        <img src='https://files.thortaohansen.com/{project}/{i}.jpg'>
+        <Image url='https://files.thortaohansen.com/{project}/{i}.jpg' />
         {work.title}<br/>
         {work.year}<br/>
         {work.dimensions}<br/>
@@ -31,4 +33,4 @@
         ...loading
     {/each}
 
-</main>
+</div>
