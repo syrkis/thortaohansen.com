@@ -1,0 +1,11 @@
+{
+	"works" : [
+		{ "title": "1UU-01", "year": "2019", "dimensions": "142x158", "materials": "oil on cotton canvas" },
+		{ "title": "1UU-02", "year": "2019", "dimensions": "120x142", "materials": "oil on cotton canvas" },
+		{ "title": "1UU-03", "year": "2019", "dimensions": "142x158", "materials": "oil on cotton canvas" },
+		{ "title": "1UU-04", "year": "2019", "dimensions": "120x142", "materials": "oil on cotton canvas" },
+		{ "title": "1UU-05", "year": "2019", "dimensions": "120x142", "materials": "oil on cotton canvas" },
+		{ "title": "1UU-06", "year": "2019", "dimensions": "100x120", "materials": "oil on cotton canvas" },
+		{ "title": "1UU-07", "year": "2019", "dimensions": "100x120", "materials": "oil on cotton canvas" }
+	]
+}

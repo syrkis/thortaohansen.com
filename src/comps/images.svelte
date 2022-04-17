@@ -8,14 +8,10 @@
     export let project;
     let works = [];
 
-    async function getWork() {
-        const res = await axios.get(`https://files.thortaohansen.com/${project}/index.json`);
-        return res.data
-    }
-
     onMount(async () => {
-        const res = await getWork();
-        works = await res.works;
+        let data = await fetch(`dirs/${project.toLowerCase()}.json`).then(x => x.json());
+        works = data.works;
+        console.log(works);
     });
 
 </script>
@@ -23,7 +19,7 @@
 <div>
 
     {#each works as work, i}
-        <Image url='https://files.thortaohansen.com/{project}/{i}.jpg' />
+        <Image url='https://syrkis.ams3.digitaloceanspaces.com/thor/{project}/{project}_{i}.jpg' />
         {work.title}<br/>
         {work.year}<br/>
         {work.dimensions}<br/>

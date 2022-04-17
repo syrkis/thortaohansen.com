@@ -1,0 +1,13 @@
+{
+	"works" : [
+		{ "title": "Untitled", "year": "2020", "dimensions": "40x50", "materials": "oil stick on cotton canvas" },
+		{ "title": "Untitled", "year": "2020", "dimensions": "75x90", "materials": "marker pen on cotton pasted on canvas" },
+		{ "title": "Untitled", "year": "2020", "dimensions": "75x95", "materials": "oil on cotton canvas" },
+		{ "title": "Untitled", "year": "2020", "dimensions": "87x99", "materials": "marker pen on cotton with artist frame" },
+		{ "title": "Untitled", "year": "2020", "dimensions": "35x45", "materials": "oil on cotton" },
+		{ "title": "Untitled", "year": "2020", "dimensions": "150x75", "materials": "marker pen on cotton with artist frame" },
+		{ "title": "Shipping crate (Untitled)", "year": "2019", "dimensions": "162x145x46", "materials": "plywood, laths, screws, staples" },
+		{ "title": "Untitled (Bzzzzz)", "year": "2019", "dimensions": "35x45", "materials": "oil on cotton canvas" },
+		{ "title": "Untitled (SALLY)", "year": "2019", "dimensions": "variable dimensions", "materials": "oil and marker pen on cotton canvas" }
+	]
+}
