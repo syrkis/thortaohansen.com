@@ -25,30 +25,33 @@
     <h2>Text</h2>
     <div style="">
         {#each texts as text}
+        <div class='item'>
             <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.title}
             </a>
-            <br/>
+        </div>
         {/each}
     </div>
 
     <h2>Film</h2>
     <div class='list'>
         {#each films as film}
+        <div class='item'>
             <a href="https://youtu.be/{film.url}" target="_blank">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{film.title}
             </a>
-            <br/>
+        </div>
         {/each}
     </div>
 
     <h2>Painting</h2>
     <div class='list'>
         {#each routes as route}
+        <div class='item'>
             <a href="/{route.url}">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{route.title}
             </a>
-            <br/>
+        </div>
         {/each}
     </div>
 
@@ -65,3 +68,9 @@
     </div>
 
 </main>
+
+<style>
+    .item {
+        padding: 0;
+    }
+</style>
