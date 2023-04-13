@@ -20,10 +20,10 @@
 </script>
 
 <main>
-    <h1>Thor Tao Hansen</h1>
-
-    <h2>Texts</h2>
+    <h1>Thor Tao Hanen</h1>
     <div class='list'>
+    <h2>Text</h2>
+    <div style="">
         {#each texts as text}
             <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.title}
@@ -32,7 +32,7 @@
         {/each}
     </div>
 
-    <h2>Films</h2>
+    <h2>Film</h2>
     <div class='list'>
         {#each films as film}
             <a href="https://youtu.be/{film.url}" target="_blank">
@@ -42,7 +42,7 @@
         {/each}
     </div>
 
-    <h2>Paintings</h2>
+    <h2>Painting</h2>
     <div class='list'>
         {#each routes as route}
             <a href="/{route.url}">
@@ -58,5 +58,10 @@
         Contact
     </a>
     <br/>
+    <a href="/cv">
+        CV
+    </a>
+    <br/>
+    </div>
 
 </main>
