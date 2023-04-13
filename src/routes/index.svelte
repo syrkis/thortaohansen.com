@@ -11,7 +11,7 @@
     ];
 
     let texts = [
-        {'url': 'kabul', 'title': 'Fall of Kabul (Ode to a battlespace)'}
+        {'url': 'Fall%20of%20Kabul%20(Ode%20to%20a%20battlespace).pdf', 'title': 'Fall of Kabul (Ode to a battlespace)'}
     ]
     
     let films = [
@@ -25,7 +25,7 @@
     <h2>Texts</h2>
     <div class='list'>
         {#each texts as text}
-            <a href="/{text.url}">
+            <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
                 {text.title}
             </a>
             <br/>
