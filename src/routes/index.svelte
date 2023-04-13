@@ -26,7 +26,7 @@
     <div class='list'>
         {#each texts as text}
             <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
-                {text.title}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.title}
             </a>
             <br/>
         {/each}
@@ -36,7 +36,7 @@
     <div class='list'>
         {#each films as film}
             <a href="https://youtu.be/{film.url}" target="_blank">
-                {film.title}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{film.title}
             </a>
             <br/>
         {/each}
@@ -46,7 +46,7 @@
     <div class='list'>
         {#each routes as route}
             <a href="/{route.url}">
-                {route.title}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{route.title}
             </a>
             <br/>
         {/each}
