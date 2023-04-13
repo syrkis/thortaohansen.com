@@ -2,7 +2,8 @@ body { font-family: 'Arial' }
 
 a { text-decoration: none; color: black; line-height: 3em; }
 
-h1, h2 { font-weight: 100; }
+h1, h2 { font-weight: 200; }
+h2 { font-size: 1em; }
 
 img { max-width: 90%; max-height: 100%; height: auto; margin: auto; display: block; }
 
