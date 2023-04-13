@@ -10,14 +10,47 @@
         {'url': 'other', 'title': 'other'},
         {'url': 'contact', 'title': 'Contact'},
     ];
+
+    let texts = [
+        {'url': 'kabul', 'title': 'Fall of Kabul (Ode to a battlespace)'}
+    ]
+    
+    let films = [
+        {'url': 'IHw57AAbiVg', 'title': 'Tonight with Zachary Khan 27/09/1463AH-2044AD'}
+    ]
 </script>
 
 <main>
     <h1>Thor Tao Hansen</h1>
-    {#each routes as route}
-        <a href="/{route.url}">
-            {route.title}
-        </a>
-        <br/>
-    {/each}
+
+    <h2>Texts</h2>
+    <div class='list'>
+        {#each texts as text}
+            <a href="/{text.url}">
+                {text.title}
+            </a>
+            <br/>
+        {/each}
+    </div>
+
+    <h2>Films</h2>
+    <div class='list'>
+        {#each films as film}
+            <a href="https://youtu.be/{film.url}" target="_blank">
+                {film.title}
+            </a>
+            <br/>
+        {/each}
+    </div>
+
+    <h2>Paintings</h2>
+    <div class='list'>
+        {#each routes as route}
+            <a href="/{route.url}">
+                {route.title}
+            </a>
+            <br/>
+        {/each}
+    </div>
+
 </main>
