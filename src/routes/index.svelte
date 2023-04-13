@@ -7,8 +7,7 @@
         {'url': 'lilt', 'title': 'Lilt Series'},
         {'url': 's_90_3', 'title': 'S 90 3'},
         {'url': '1UU', 'title': '1UU'},
-        {'url': 'other', 'title': 'other'},
-        {'url': 'contact', 'title': 'Contact'},
+        {'url': 'other', 'title': 'other'}
     ];
 
     let texts = [
@@ -52,5 +51,12 @@
             <br/>
         {/each}
     </div>
+
+    <hr style="margin: 1rem 0; color: #000; background-color: #000; height: 1px; border: none; width: 150px;" />
+
+    <a href="/contact">
+        Contact
+    </a>
+    <br/>
 
 </main>
