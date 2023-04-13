@@ -21,13 +21,13 @@
 
 <main>
     <h1>Thor Tao Hanen</h1>
-    <div class='list'>
+    <div style="padding-left: 3rem;">
     <h2>Text</h2>
     <div style="">
         {#each texts as text}
         <div class='item'>
             <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.title}
+                {text.title}
             </a>
         </div>
         {/each}
@@ -38,7 +38,7 @@
         {#each films as film}
         <div class='item'>
             <a href="https://youtu.be/{film.url}" target="_blank">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{film.title}
+                {film.title}
             </a>
         </div>
         {/each}
@@ -49,13 +49,13 @@
         {#each routes as route}
         <div class='item'>
             <a href="/{route.url}">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{route.title}
+                {route.title}
             </a>
         </div>
         {/each}
     </div>
 
-    <hr style="margin: 1rem 0; color: #000; background-color: #000; height: 1px; border: none; width: 150px;" />
+    <!--<hr style="margin: 1rem 0; color: #000; background-color: #000; height: 1px; border: none; width: 150px;" />-->
 
     <a href="/contact">
         Contact
@@ -71,6 +71,6 @@
 
 <style>
     .item {
-        padding: 0;
+        padding-left: 3rem;
     }
 </style>
