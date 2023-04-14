@@ -23,6 +23,7 @@
     <h1>Thor Tao Hansen</h1>
     <div style="padding-left: 2rem;">
 
+    <br/>
     <h2>Film</h2>
     <div class='list'>
         {#each films as film}
