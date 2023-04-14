@@ -2,7 +2,7 @@ body { font-family: 'Arial' }
 
 a { text-decoration: none; color: black; line-height: 2.5em; }
 
-h1, h2 { font-weight: bold; }
+h1, h2 { font-weight: normal }
 /* bold text */
 h2 { font-size: 1em; }
 

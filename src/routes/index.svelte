@@ -20,18 +20,8 @@
 </script>
 
 <main>
-    <h1>Thor Tao Hanen</h1>
-    <div style="padding-left: 3rem;">
-    <h2>Text</h2>
-    <div style="">
-        {#each texts as text}
-        <div class='item'>
-            <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
-                {text.title}
-            </a>
-        </div>
-        {/each}
-    </div>
+    <h1>Thor Tao Hansen</h1>
+    <div style="padding-left: 2rem;">
 
     <h2>Film</h2>
     <div class='list'>
@@ -55,7 +45,24 @@
         {/each}
     </div>
 
+    <h2>Text</h2>
+    <div class='list'>
+        {#each texts as text}
+        <div class='item'>
+            <a href="https://syrkis.ams3.cdn.digitaloceanspaces.com/thor/texts/{text.url}" target="_blank">
+                {text.title}
+            </a>
+        </div>
+        {/each}
+    </div>
+
     <!--<hr style="margin: 1rem 0; color: #000; background-color: #000; height: 1px; border: none; width: 150px;" />-->
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
 
     <a href="/contact">
         Contact
@@ -71,6 +78,7 @@
 
 <style>
     .item {
-        padding-left: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
     }
 </style>
