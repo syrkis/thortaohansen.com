@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-        <link rel='stylesheet' href='/layout.css' />
-        <title>Thor Tao Hansen</title>
-        <script defer data-domain="thortaohansen.com" src="https://plausible.io/js/plausible.js"></script>
-        %svelte.head%
-    </head>
-    <body>
-        <div id="svelte">%svelte.body%</div>
-    </body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		%sveltekit.head%
+    <title>Thor Tao Hansen</title>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+	</body>
 </html>

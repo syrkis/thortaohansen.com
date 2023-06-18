@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main
+  repo: syrkis/thortaohansen.com
+  site_domain: thortaohansen.com
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+
+  - name: "painting"
+    label: "painting"
+    folder: "src/lib/posts/painting"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "slug", label: "Slug", widget: "string" }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" },
+      - { name: "works", label: "Works", widget: "list", fields: [
+          { name: "title", label: "Title", widget: "string" },
+          { name: "image", label: "Image", widget: "image" },
+          { name: "year", label: "Year", widget: "string" },
+          { name: "dimensions", label: "Dimensions", widget: "string" },
+          { name: "materials", label: "Materials", widget: "string" },
+        ]}
+
+  - name: "text"
+    label: "Text"
+    folder: "src/lib/posts/text"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { body: "body", label: "Body", widget: "markdown" }
+      - { name: "date", label: "Date", widget: "datetime" }
+    
+  - name: "film"
+    label: "Film"
+    folder: "src/lib/posts/film"  
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "link", label: "Link", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+  
