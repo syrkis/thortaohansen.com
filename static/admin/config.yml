@@ -16,14 +16,16 @@ collections:
     fields:
       - { name: "slug", label: "Slug", widget: "string" }
       - { name: "title", label: "Title", widget: "string" }
-      - { name: "date", label: "Date", widget: "datetime" },
-      - { name: "works", label: "Works", widget: "list", fields: [
-          { name: "title", label: "Title", widget: "string" },
-          { name: "image", label: "Image", widget: "image" },
-          { name: "year", label: "Year", widget: "string" },
-          { name: "dimensions", label: "Dimensions", widget: "string" },
-          { name: "materials", label: "Materials", widget: "string" },
-        ]},
+      - { name: "date", label: "Date", widget: "datetime" }
+      - name: "works"
+        label: "Works"
+        widget: "list"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "image", label: "Image", widget: "image" }
+          - { name: "year", label: "Year", widget: "string" }
+          - { name: "dimensions", label: "Dimensions", widget: "string" }
+          - { name: "materials", label: "Materials", widget: "string" }
   - name: "text"
     label: "Text"
     folder: "src/lib/posts/text"
@@ -31,7 +33,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { name: "title", label: "Title", widget: "string" }
-      - { body: "body", label: "Body", widget: "markdown" }
+      - { name: "body", label: "Body", widget: "markdown" }
       - { name: "date", label: "Date", widget: "datetime" }
   - name: "film"
     label: "Film"
@@ -42,4 +44,3 @@ collections:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "link", label: "Link", widget: "string" }
       - { name: "date", label: "Date", widget: "datetime" }
-  
