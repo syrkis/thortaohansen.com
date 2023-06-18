@@ -8,7 +8,6 @@ media_folder: static/images
 public_folder: /images
 
 collections:
-
   - name: "painting"
     label: "painting"
     folder: "src/lib/posts/painting"
