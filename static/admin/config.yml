@@ -32,6 +32,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { name: "slug", label: "Slug", widget: "string"}
       - { name: "title", label: "Title", widget: "string" }
       - { name: "body", label: "Body", widget: "markdown" }
       - { name: "date", label: "Date", widget: "datetime" }
@@ -41,6 +42,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { name: "slug", label: "Slug", widget: "string" }
       - { name: "title", label: "Title", widget: "string" }
       - { name: "link", label: "Link", widget: "string" }
       - { name: "date", label: "Date", widget: "datetime" }
