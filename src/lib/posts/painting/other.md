@@ -14,5 +14,5 @@ works: [
 		{ image: "other_7.jpg", "title": "Untitled (Bzzzzz)", "year": "2019", "dimensions": "35x45", "materials": "oil on cotton canvas" },
 		{ image: "other_8.jpg", "title": "Untitled (SALLY)", "year": "2019", "dimensions": "variable dimensions", "materials": "oil and marker pen on cotton canvas" },
         { image: "other_9.jpg", "title": "Untitled", "year": 2022, "dimensions": "50x60", "materials": "Pencil on paper, blackmorph on jute canvas" }
-	]
+]
 ---

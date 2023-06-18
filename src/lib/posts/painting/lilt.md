@@ -21,5 +21,5 @@ works: [
 		{ image: "lilt_14.jpg", "title": "untitled (lilt series no.17)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
 		{ image: "lilt_15.jpg", "title": "untitled (lilt series no.18)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
 		{ image: "lilt_16.jpg", "title": "untitled (lilt series no.19)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" }
-	]
+]
 ---

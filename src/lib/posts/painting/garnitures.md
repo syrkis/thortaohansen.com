@@ -26,5 +26,5 @@ works: [
 		{ image: 'garnitures_19.jpg', title: "Garnitures for temple or house, no 23. (mothers and fathers)", year: "2022", "dimensions": "140x166", "materials": "oil on cotton canvas" },
 		{ image: 'garnitures_20.jpg', title: "Garnitures for temple or house, no. 24. (libation vessel)", year: "2022", "dimensions": "180x220", "materials": "oil on cotton canvas" },
 		{ image: 'garnitures_21.jpg', title: "Garnitures for temple or house, no. 25 (slough)", year: "2022", "dimensions": "165x185", "materials": "oil on cotton canvas" }
-	]
+]
 ---

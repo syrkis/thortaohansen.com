@@ -12,5 +12,5 @@ works: [
 		{ image: "sun_5.jpg", "title": "Untitled", "year": "2021", "dimensions": "80x100", "materials": "Canvas, cotton, acrylic ink, dry grass." },
 		{ image: "sun_6.jpg", "title": "Untitled", "year": "2021", "dimensions": "80x100", "materials": "Canvas, cotton, acrylic ink, dry grass." },
 		{ image: "sun_7.jpg", "title": "Untitled", "year": "2021", "dimensions": "80x100", "materials": "Canvas, cotton, acrylic ink, dry grass." }
-	]
+]
 ---
