@@ -1,6 +1,7 @@
 ---
 slug: garnitures
 title: Garnitures for temple or house
+order: 4
 description: "Garnitures for temple or house"
 date: 2020-04-24
 works: [

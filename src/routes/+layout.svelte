@@ -20,7 +20,7 @@
     :global(h1) { padding-bottom: 40px; }
     :global(h1, h2, h3) { font-weight: normal }
     :global(h2, h3) { padding-left: 20px; }
-    :global(h2) { font-size: 1em; }
+    :global(h2) { font-size: 1.2em; }
     :global(h3) { padding-left: 40px; }
     :global(img) { max-width: 90%; max-height: 100%; height: auto; margin: auto; display: block; }
     :global(.wrapper) { height: 110vh; padding: 100px 0 50px 0; }

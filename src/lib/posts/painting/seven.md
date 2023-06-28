@@ -1,6 +1,7 @@
 ---
 slug: seven
-title: Seven
+title: Seven sages laid the foundations
+order: 2
 description: "Seven"
 date: 2020-04-24
 works: [

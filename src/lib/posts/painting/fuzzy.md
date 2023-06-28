@@ -1,6 +1,7 @@
 ---
 slug: fuzzy
-title: Fuzzy
+title: Fuzzy is the language of creation
+order: 5
 description: "Fuzzy"
 date: 2020-04-24
 works: [

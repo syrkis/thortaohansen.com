@@ -1,6 +1,7 @@
 ---
 slug: sun
-title: Sun
+title: The sun hitches up her skirt for Utnapishtim
+order: 3
 description: "Sun"
 date: 2020-04-24
 works: [

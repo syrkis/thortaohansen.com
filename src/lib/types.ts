@@ -11,6 +11,7 @@ export interface Paintings {
     paintings: Painting[];
     date: string;
     slug: string;
+    order: number;
 }
 
 export interface Painting {

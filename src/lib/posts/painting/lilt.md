@@ -1,6 +1,7 @@
 ---
 slug: lilt
-title: Lilt
+title: Lilt series
+order: 8
 description: "Lilt"
 date: 2020-04-24
 works: [

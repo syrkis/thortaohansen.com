@@ -1,6 +1,7 @@
 ---
 slug: toes
 title: Toes
+order: 1
 description: "Toes"
 date: 2020-04-24
 works: [

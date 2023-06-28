@@ -1,6 +1,7 @@
 ---
 slug: 1uu
 title: 1UU
+order: 7
 description: "1UU"
 date: 2020-04-24
 material: "oil on cotton canvas"

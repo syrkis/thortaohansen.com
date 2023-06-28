@@ -36,8 +36,9 @@ export const load: PageServerLoad = async () => {
       return {
         slug: post.attributes.slug,
         title: post.attributes.title,
+        order: post.attributes.order,
       };
-    }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    }).sort((a, b) => a.order - b.order);
 
   const films = fs
     .readdirSync(filmDir)
