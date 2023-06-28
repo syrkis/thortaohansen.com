@@ -34,7 +34,7 @@ export const load: PageServerLoad = async () => {
         fs.readFileSync(path.join(paintingDir, file), "utf-8")
       );
       return {
-        slug: post.attributes.slug,
+        slug: post.attributes.slug.replace(/-/g, " "),
         title: post.attributes.title,
         order: post.attributes.order,
       };

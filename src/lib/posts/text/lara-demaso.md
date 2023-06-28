@@ -1,5 +1,5 @@
 ---
-slug: Lara Demaso
+slug: lara-demaso
 title: Lara Demaso and the sonics of grief
 date: 2023-06-19T18:10:30.061Z
 ---
