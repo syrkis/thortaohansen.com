@@ -12,7 +12,6 @@ collections:
     label: "painting"
     folder: "src/lib/posts/painting"
     create: true
-    slug: "{{slug}}"
     fields:
       - { name: "slug", label: "Slug", widget: "string" }
       - { name: "title", label: "Title", widget: "string" }
@@ -31,7 +30,6 @@ collections:
     label: "Text"
     folder: "src/lib/posts/text"
     create: true
-    slug: "{{slug}}"
     fields:
       - { name: "slug", label: "Slug", widget: "string"}
       - { name: "title", label: "Title", widget: "string" }
@@ -41,7 +39,6 @@ collections:
     label: "Film"
     folder: "src/lib/posts/film"  
     create: true
-    slug: "{{slug}}"
     fields:
       - { name: "slug", label: "Slug", widget: "string" }
       - { name: "title", label: "Title", widget: "string" }
