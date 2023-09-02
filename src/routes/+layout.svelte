@@ -3,7 +3,8 @@
 </div>
 
 <svelte:head>
-    <meta property="og:title" content="Thor Tao Hansen" />
+    <meta property="og:image" content="https://syrkis.ams3.digitaloceanspaces.com/files-bucket/AC9B4A56-406D-4630-BDC1-FB24EF006A7E.png" />
+    <meta property="og:title" content="THOR TAO HANSEN" />
     <meta property="og:url" content="https://thortaohansen.com" />
 </svelte:head>
 
