@@ -6,22 +6,22 @@ description: "Lilt"
 image: "lilt_0.jpg"
 date: 2020-04-25
 works: [
-	{ image: "lilt_0.jpg", "title": "untitled (lilt series no.3)", "year": 2018, "dimensions": "135x160", "materials": "oil on cotton canvas" },
-	{ image: "lilt_1.jpg", "title": "untitled (lilt series no.4)", "year": 2018, "dimensions": "158x180", "materials": "oil on cotton canvas" },
-	{ image: "lilt_2.jpg", "title": "untitled (lilt series no.5)", "year": 2018, "dimensions": "135x158", "materials": "oil on cotton canvas" },
-	{ image: "lilt_3.jpg", "title": "untitled (lilt series no.6)", "year": 2018, "dimensions": "135x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_4.jpg", "title": "untitled (lilt series no.7)", "year": 2018, "dimensions": "135x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_5.jpg", "title": "untitled (lilt series no.8)", "year": 2018, "dimensions": "70x85", "materials": "oil on cotton canvas" },
-	{ image: "lilt_6.jpg", "title": "untitled (lilt series no.9)", "year": 2018, "dimensions": "70x85", "materials": "oil on cotton canvas" },
-	{ image: "lilt_7.jpg", "title": "untitled (lilt series no.10)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_8.jpg", "title": "untitled (lilt series no.11)", "year": 2018, "dimensions": "158x180", "materials": "oil on cotton canvas" },
-	{ image: "lilt_9.jpg", "title": "untitled (lilt series no.12)", "year": 2018, "dimensions": "121x141", "materials": "oil on cotton canvas" },
-	{ image: "lilt_10.jpg", "title": "untitled (lilt series no.13)", "year": 2018, "dimensions": "121x141", "materials": "oil on cotton canvas" },
-	{ image: "lilt_11.jpg", "title": "untitled (lilt series no.14)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_12.jpg", "title": "untitled (lilt series no.15)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_13.jpg", "title": "untitled (lilt series no.16)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_14.jpg", "title": "untitled (lilt series no.17)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_15.jpg", "title": "untitled (lilt series no.18)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
-	{ image: "lilt_16.jpg", "title": "untitled (lilt series no.19)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" }
-	]
+	{ image: "s_90_3_0.jpg", "title": "S 90 3 (04)", "year": 2018, "dimensions": "60x71", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_1.jpg", "title": "S 90 3 (05)", "year": 2018, "dimensions": "65x71", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_2.jpg", "title": "S 90 3 (06)", "year": 2018, "dimensions": "65x71", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_3.jpg", "title": "S 90 3 (07)", "year": 2018, "dimensions": "60x71", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_4.jpg", "title": "S 90 3 (08)", "year": 2018, "dimensions": "40x50", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_5.jpg", "title": "S 90 3 (09)", "year": 2018, "dimensions": "60x71", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_6.jpg", "title": "S 90 3 (10)", "year": 2018, "dimensions": "143x168", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_7.jpg", "title": "S 90 3 (11)", "year": 2019, "dimensions": "70x85", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_8.jpg", "title": "S 90 3 (12)", "year": 2019, "dimensions": "70x85", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_9.jpg", "title": "S 90 3 (13)", "year": 2019, "dimensions": "89x110", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_10.jpg", "title": "S 90 3 (14)", "year": 2019, "dimensions": "96x120", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_11.jpg", "title": "S 90 3 (15)", "year": 2019, "dimensions": "122x146", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_12.jpg", "title": "S 90 3 (16)", "year": 2019, "dimensions": "96x120", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_13.jpg", "title": "S 90 3 (17)", "year": 2019, "dimensions": "135x158", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_14.jpg", "title": "S 90 3 (18)", "year": 2019, "dimensions": "135x158", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_15.jpg", "title": "S 90 3 (19)", "year": 2019, "dimensions": "70x85", "materials": "oil on cotton canvas" },
+	{ image: "s_90_3_16.jpg", "title": "S 90 3 (21) and (22)", "year": 2019, "dimensions": "142x169 and 142x172", "materials": "oil on cotton canvas" }
+]
 ---
