@@ -3,6 +3,7 @@ slug: sun
 title: The sun hitches up her skirt for Utnapishtim
 order: 3
 description: "Sun"
+image: sun_0.jpg
 date: 2020-04-24
 works: [
 		{ image: "sun_0.jpg", "title": "The sun hitches up her skirt for Utnapishtim", "year": "2021", "dimensions": "120x140", "materials": "Canvas, stretcher bars, dry grass, laser printed image" },

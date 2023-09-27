@@ -3,6 +3,7 @@ slug: seven
 title: Seven sages laid the foundations
 order: 2
 description: "Seven"
+image: seven_0.jpg
 date: 2020-04-24
 works: [
     { title: " ", image: "seven_0.jpg", year: " ", dimensions: " ", materials: " " },

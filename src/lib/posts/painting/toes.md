@@ -3,6 +3,7 @@ slug: toes
 title: Toes
 order: 1
 description: "Toes"
+image: toes_0.jpg
 date: 2020-04-24
 works: [
 	{image: "toes_0.jpg", title: "Cry over spilt feet (Garnitures-Toes intermediate painting I)", year: "2022", dimensions: "200x240", materials: "oil on cotton canvas"},

@@ -3,6 +3,7 @@ slug: lilt
 title: Lilt series
 order: 8
 description: "Lilt"
+image: "lilt_0.jpg"
 date: 2020-04-24
 works: [
 	{ image: "lilt_0.jpg", "title": "untitled (lilt series no.3)", "year": 2018, "dimensions": "135x160", "materials": "oil on cotton canvas" },

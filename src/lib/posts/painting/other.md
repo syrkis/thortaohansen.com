@@ -3,6 +3,7 @@ slug: other
 title: Other
 order: 9
 description: "Other"
+image: other_0.jpg
 date: 2020-04-24
 works: [
 		{ image: "other_0.jpg", "title": "Untitled", "year": "2020", "dimensions": "40x50", "materials": "oil stick on cotton canvas" },
