@@ -122,4 +122,44 @@ works:
     dimensions: 70x80
     materials: Oil on cotton canvas.
     image: /images/26.jpg
+  - title: Garnitures for temple or house, no. 27 (And then pyrolatry)
+    year: "2023"
+    dimensions: " 60x80 cm."
+    materials: Oil on cotton canvas.
+    image: /images/27.jpg
+  - title: Garnitures for temple or house, no. 28 (Vessel scan)
+    year: "2023"
+    dimensions: 56x64
+    materials: Oil on cotton canvas
+    image: /images/28.jpg
+  - title: Garnitures for temple or house, no. 29 (Figure in repose)
+    image: /images/29.jpg
+    year: "2023"
+    dimensions: 115x135
+    materials: Oil on cotton canvas
+  - title: Garnitures for temple or house, no. 30 (Confluence probably)
+    image: /images/30.jpg
+    year: "2023"
+    dimensions: 110x128 cm.
+    materials: Oil on cotton canvas
+  - title: Garnitures for temple or house, no. 31 (A lightness on the wind)
+    image: /images/31.jpg
+    year: "2023"
+    dimensions: 50x60
+    materials: Oil on cotton canvas
+  - title: Garnitures for temple or house, no. 32 (The mountains and the rain)
+    image: /images/32_.jpg
+    year: "2023"
+    dimensions: 115x135
+    materials: Oil on cotton canvas
+  - title: Garnitures for temple or house, no. 33 (The mountains and the rain)
+    image: /images/33.jpg
+    year: "2023"
+    dimensions: 75x95 cm
+    materials: Oil on cotton canvas
+  - title: Garnitures for temple or house, no. 34 (The mountains and the rain)
+    image: /images/34.jpg
+    year: "2023"
+    dimensions: 115x135
+    materials: Oil on cotton canvas
 ---
