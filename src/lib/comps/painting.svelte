@@ -1,10 +1,14 @@
 <script lang="ts">
     export let data;
+
+    let image = data.works[0].image;
+    /** image title should be title from last slasg (filename, not path). Keep format) */
+    image = image.substring(image.lastIndexOf('/') + 1);
 </script>
 
 <div>
     {#each data.works as work}
-        <img src='images/{work.image}' alt={work.title} />
+        <img src='images/{image}' alt={work.title} />
         {work.title}<br/>
         {work.year}<br/>
         {work.dimensions}<br/>
