@@ -23,11 +23,11 @@ collections:
         label: "Works"
         widget: "list"
         fields:
-          - { name: "title", label: "Title", widget: "string" }
+          - { name: "title", label: "Title", widget: "string", required: false }
           - { name: "image", label: "Image", widget: "image" }
-          - { name: "year", label: "Year", widget: "string" }
-          - { name: "dimensions", label: "Dimensions", widget: "string" }
-          - { name: "materials", label: "Materials", widget: "string" }
+          - { name: "year", label: "Year", widget: "string", required: false }
+          - { name: "dimensions", label: "Dimensions", widget: "string", required: false }
+          - { name: "materials", label: "Materials", widget: "string", required: false }
   - name: "text"
     label: "Text"
     folder: "src/lib/posts/text"
