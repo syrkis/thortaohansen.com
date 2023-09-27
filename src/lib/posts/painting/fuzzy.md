@@ -6,8 +6,8 @@ description: "Fuzzy"
 image: fuzzy_0.jpg
 date: 2020-04-24
 works: [
-	{image: "fuzzy_1.jpg"},
-	{image: "fuzzy_1.jpg"},
-	{image: "fuzzy_1.jpg"}
+    {image: "fuzzy_1.jpg"},
+    {image: "fuzzy_1.jpg"},
+    {image: "fuzzy_1.jpg"}
 ]
 ---
