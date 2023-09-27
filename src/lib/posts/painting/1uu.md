@@ -6,12 +6,20 @@ description: "1UU"
 image: 1UU_0.jpg
 date: 2020-04-24
 works: [
-	{title: "1UU-01", image: "1UU_0.jpg", year: "2019", dimensions: "142x158", materials: "oil on cotton canvas"},
-	{title: "1UU-02", image: "1UU_1.jpg", year: "2019", dimensions: "120x142", materials: "oil on cotton canvas"},
-	{title: "1UU-03", image: "1UU_2.jpg", year: "2019", dimensions: "142x158", materials: "oil on cotton canvas"},
-	{title: "1UU-04", image: "1UU_3.jpg", year: "2019", dimensions: "120x142", materials: "oil on cotton canvas"},
-	{title: "1UU-05", image: "1UU_4.jpg", year: "2019", dimensions: "120x142", materials: "oil on cotton canvas"},
-	{title: "1UU-06", image: "1UU_5.jpg", year: "2019", dimensions: "100x120", materials: "oil on cotton canvas"},
-	{title: "1UU-07", image: "1UU_6.jpg", year: "2019", dimensions: "100x120", materials: "oil on cotton canvas"}
+    { title: " ", image: "seven_0.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_1.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_2.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_3.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_4.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_5.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_6.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_7.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_8.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_9.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_10.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_11.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_12.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_13.jpg", year: " ", dimensions: " ", materials: " " },
+    { title: " ", image: "seven_14.jpg", year: " ", dimensions: " ", materials: " " }
 ]
 ---
