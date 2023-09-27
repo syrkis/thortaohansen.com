@@ -7,3 +7,6 @@ node_modules
 .vercel
 public/
 *.zip
+
+# Local Netlify folder
+.netlify
