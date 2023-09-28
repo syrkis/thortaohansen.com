@@ -3,12 +3,16 @@
 
     let image = data.works[0].image;
     /** image title should be title from last slasg (filename, not path). Keep format) */
-    image = image.substring(image.lastIndexOf('/') + 1);
+    function getImagePath(image) {
+        let imageFile = image.substring(image.lastIndexOf('/') + 1);
+        let imagePath = `/images/${imageFile}`;
+        return imagePath;
+    }
 </script>
 
 <div>
     {#each data.works as work}
-        <img src='images/{image}' alt={work.title} />
+        <img src={getImagePath(work.image)} alt={work.title}/>
         {work.title}<br/>
         {work.year}<br/>
         {work.dimensions}<br/>
