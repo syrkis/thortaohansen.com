@@ -14,10 +14,12 @@ export const load: PageServerLoad = async ({ params }) => {
   const textDir = path.join(process.cwd(), 'src', 'lib', 'posts', 'text');
   const paintingDir = path.join(process.cwd(), 'src', 'lib', 'posts', 'painting');
   const filmDir = path.join(process.cwd(), 'src', 'lib', 'posts', 'film');
+  const exhibitionDir = path.join(process.cwd(), 'src', 'lib', 'posts', 'exhibitions');
 
   const textFiles = fs.readdirSync(textDir);
   const paintingFiles = fs.readdirSync(paintingDir);
   const filmFiles = fs.readdirSync(filmDir);
+  const exhibitionFiles = fs.readdirSync(exhibitionDir);
 
   if (textFiles.includes(params.slug + '.md')) {
     const post = fm<Text>(
@@ -36,6 +38,21 @@ export const load: PageServerLoad = async ({ params }) => {
   if (paintingFiles.includes(params.slug + '.md')) {
     const post = fm<Paintings>(
       fs.readFileSync(path.join(paintingDir, params.slug + '.md'), 'utf-8')
+    );
+    return {
+      body: {
+        title: post.attributes.title,
+        body: post.body,
+        date: post.attributes.date,
+        works: post.attributes.works,
+        type: 'painting'
+      }
+    };
+  }
+
+  if (exhibitionFiles.includes(params.slug + '.md')) {
+    const post = fm<Paintings>(
+      fs.readFileSync(path.join(exhibitionDir, params.slug + '.md'), 'utf-8')
     );
     return {
       body: {

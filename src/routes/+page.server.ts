@@ -2,11 +2,12 @@ import type { PageServerLoad } from "./$types";
 import fs from "fs";
 import fm from "front-matter";
 import path from "path";
-import type { Text, Film, Paintings } from "$lib/types";
+import type { Text, Film, Painting } from "$lib/types";
 
 const textDir = path.join(process.cwd(), "src", "lib", "posts", "text");
 const paintingDir = path.join(process.cwd(), "src", "lib", "posts", "painting");
 const filmDir = path.join(process.cwd(), "src", "lib", "posts", "film");
+const exhibitionDir = path.join(process.cwd(), "src", "lib", "posts", "exhibitions");
 
 export const load: PageServerLoad = async () => {
   const texts = fs
@@ -53,11 +54,28 @@ export const load: PageServerLoad = async () => {
       };
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()); 
 
+    const exhibitions = fs
+      .readdirSync(exhibitionDir)
+      .map((file) => {
+        const exhibition = fm<Painting>(
+          fs.readFileSync(path.join(exhibitionDir, file), "utf-8")
+        );
+        return {
+          slug: exhibition.attributes.slug,
+          title: exhibition.attributes.title,
+          link: exhibition.attributes.link
+        };
+      }
+    ).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    
+
     return {
       body: {
         texts,
         paintings,
-        films
+        films,
+        exhibitions
       }
     };
 };

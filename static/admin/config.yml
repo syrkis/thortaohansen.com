@@ -48,3 +48,23 @@ collections:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "link", label: "Link", widget: "string" }
       - { name: "date", label: "Date", widget: "datetime" }
+  - name: "exhibition"
+    label: "exhibition"
+    folder: "src/lib/posts/exhibition"
+    slug: "{{slug}}"
+    create: true
+    fields:
+      - { name: "image", label: "Image", widget: "image" }
+      - { name: "slug", label: "Slug", widget: "string" }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "order", label: "Order", widget: "number" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - name: "works"
+        label: "Works"
+        widget: "list"
+        fields:
+          - { name: "title", label: "Title", widget: "string", required: false }
+          - { name: "image", label: "Image", widget: "image" }
+          - { name: "year", label: "Year", widget: "string", required: false }
+          - { name: "dimensions", label: "Dimensions", widget: "string", required: false }
+          - { name: "materials", label: "Materials", widget: "string", required: false }

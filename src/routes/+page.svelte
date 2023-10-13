@@ -5,6 +5,7 @@
     let texts = data.body.texts;
     let films = data.body.films;
     let paintings = data.body.paintings;
+    let exhibitions = data.body.exhibitions;
 
 </script>
 
@@ -23,6 +24,7 @@
                 </a>
             {/each}
         </div>
+        
         <div>
             <h2>Painting</h2>
             {#each paintings as painting}
@@ -33,6 +35,18 @@
                 </a>
             {/each}
         </div>
+
+        <div>
+            <h2>Exhibitions</h2>
+            {#each exhibitions as exhibition}
+                <a href={exhibition.slug}>
+                    <div>
+                        <h3>{exhibition.title}</h3>
+                    </div>  
+                </a>
+            {/each}
+        </div>
+        
         <div>
             <h2>Text</h2>
             {#each texts as text}
