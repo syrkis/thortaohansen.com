@@ -1,6 +1,6 @@
 ---
 image: /images/24_thorhansen_abk_vienna_2023_2000_2001lower.jpg
-slug: Incorrigibly yours,
+slug: incorrigibly-yours
 title: Incorrigibly yours,
 order: -1
 date: 2023-10-16T14:30:03.906Z

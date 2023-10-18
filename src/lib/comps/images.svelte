@@ -20,10 +20,18 @@
 
     {#each works as work, i}
         <Image url='https://syrkis.ams3.digitaloceanspaces.com/thor/{project}/{project}_{i}.jpg' />
-        {work.title}<br/>
-        {work.year}<br/>
-        {work.dimensions}<br/>
-        {work.materials}
+        {#if work.title}
+            {work.title}<br/>
+        {/if}
+        {#if work.year}
+            {work.year}<br/>
+        {/if}
+        {#if work.dimensions}
+            {work.dimensions}<br/>
+        {/if}
+        {#if work.materials}
+            {work.materials}
+        {/if}
     {:else}
         ...loading
     {/each}

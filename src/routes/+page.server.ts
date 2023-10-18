@@ -24,7 +24,8 @@ export const load: PageServerLoad = async () => {
         description: post.attributes.description,
         date: post.attributes.date,
         illustration: post.attributes.illustration,
-        type: post.attributes.category
+        type: post.attributes.category,
+        url: post.attributes.url
       };
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 

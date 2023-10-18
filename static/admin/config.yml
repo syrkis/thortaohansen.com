@@ -34,10 +34,11 @@ collections:
     slug: "{{slug}}"
     create: true
     fields:
-      - { name: "slug", label: "Slug", widget: "string"}
+      - { name: "slug", label: "Slug", widget: "string" }
       - { name: "title", label: "Title", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "body", label: "Body", widget: "markdown", required: false }
       - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "url", label: "URL", widget: "string", required: false }
   - name: "film"
     label: "Film"
     slug: "{{slug}}"

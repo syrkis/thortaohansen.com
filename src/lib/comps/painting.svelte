@@ -13,10 +13,18 @@
 <div>
     {#each data.works as work}
         <img src={getImagePath(work.image)} alt={work.title}/>
-        {work.title}<br/>
-        {work.year}<br/>
-        {work.dimensions}<br/>
-        {work.materials}
+        {#if work.title}
+            {work.title}<br/>
+        {/if}
+        {#if work.year}
+            {work.year}<br/>
+        {/if}
+        {#if work.dimensions}
+            {work.dimensions}<br/>
+        {/if}
+        {#if work.materials}
+            {work.materials}
+        {/if}
     {/each}
 </div>
 

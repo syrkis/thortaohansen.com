@@ -50,8 +50,8 @@
         <div>
             <h2>Text</h2>
             {#each texts as text}
-                <a href={text.slug}>
-                    <div>
+            <a href={text.url ? text.url : text.slug}>
+                <div>
                         <h3>{text.title}</h3>
                     </div>  
                 </a>
